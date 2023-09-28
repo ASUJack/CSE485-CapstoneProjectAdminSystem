@@ -23,7 +23,7 @@ AssignedStudents INT[]
 );
 
 INSERT INTO students (FirstName, LastName, Email, ASURITEID)
-VALUES ('Jackson', 'Walker', 'jgwalke3@asu.edu', '1212884398');
+VALUES ('Jackson', 'Walker', 'jgwalke3@asu.edu', '12120xxxxx');
 
 INSERT INTO students (FirstName, LastName, Email, ASURITEID)
 VALUES ('Brock', 'McNeil', 'bkmcneil@asu.edu', '12121xxxxx');
