@@ -1,0 +1,86 @@
+/* Add CSS style for the email link */
+.email-link {
+    text-decoration: underline;
+    color: inherit; /* Inherit the color from its parent (black by default) */
+}
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the box for each section */
+.box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.box2 {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+}
+
+/* Style the header */
+h1 {
+    font-size: 24px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the bullet points */
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: '\2022'; /* Bullet point character */
+    color: #0073e6; /* Bullet point color */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Add CSS style for the checkbox labels */
+/* .checkbox-label input[type="checkbox"] {
+    margin-left: 10px;
+} */
+.checkboxes label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 22px;
+    text-indent: -22px;
+}
+.checkboxes input {
+vertical-align: middle;
+}
+.checkboxes label span {
+vertical-align: middle;
+}
+
